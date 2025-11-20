@@ -1,25 +1,47 @@
+
 <!doctype html>
 <html lang="en">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Contact — AdtradeHub</title><link rel="stylesheet" href="/css/style.css"></head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact — AdtradeHub</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
 <body>
-  <header class="header"><div class="container"><nav><h1 style="margin:0;font-size:20px">AdtradeHub</h1>
-  <div style="margin-left:auto"><a href="/index.html">Home</a><a href="/about.html">About</a><a href="/blog.html">Blog</a><a href="/contact.html">Contact</a></div>
-  </nav></div></header>
+  <header class="header">
+    <div class="container">
+      <nav>
+        <h1 style="margin:0;font-size:20px">AdtradeHub</h1>
+        <div style="margin-left:auto">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="blog.html">Blog</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
 
   <main class="container">
     <h2>Contact</h2>
-    <p>If you'd like help setting up your site or Monetag, email: <strong>your-email@example.com</strong></p>
+    <p>If you have any questions or suggestions, feel free to reach out.</p>
 
-    <h3>Send a message</h3>
-    <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
-      <input class="input" type="text" name="name" placeholder="Your name" required>
-      <input class="input" type="email" name="email" placeholder="Email" required>
-      <textarea class="input" name="message" rows="6" placeholder="Message" required></textarea>
-      <button class="btn" type="submit">Send</button>
+    <form action="https://formspree.io/f/your-form-id" method="POST" class="card" style="padding:20px;margin-top:20px">
+      <label>Name</label>
+      <input type="text" name="name" required>
+
+      <label>Email</label>
+      <input type="email" name="email" required>
+
+      <label>Message</label>
+      <textarea name="message" rows="4" required></textarea>
+
+      <button class="btn" type="submit">Send Message</button>
     </form>
   </main>
 
-  <footer class="footer"><div class="container">© 2025 AdtradeHub</div></footer>
+  <footer class="footer">
+    <div class="container">© 2025 AdtradeHub — Built with GitHub Pages</div>
+  </footer>
 </body>
 </html>
